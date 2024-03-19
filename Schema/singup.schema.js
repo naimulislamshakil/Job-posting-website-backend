@@ -15,7 +15,6 @@ const singupSchema = mongoose.Schema(
 		},
 		Email: {
 			type: String,
-			required: true,
 			trim: true,
 		},
 		Position: {

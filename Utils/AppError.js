@@ -3,6 +3,7 @@ class AppError extends Error {
 		super(message);
 		this.errorCode = errorCode;
 		this.statusCode = statusCode;
+		this.message = message;
 	}
 }
 
